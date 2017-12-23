@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <TextView
+           android:id="@+id/user"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:textSize="24sp"
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="欢迎你回来"
+           android:textSize="24sp" />
+   </LinearLayout>
+    <Button
+        android:id="@+id/bt_editinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="修改个人信息"/>
+    <Button
+        android:id="@+id/bt_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="收入" />
+    <Button
+        android:id="@+id/bt_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="支出"/>
+    <Button
+        android:id="@+id/bt_queryBydate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="按日期查询" />
+    <Button
+        android:id="@+id/bt_queryByincome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="按收入查询"/>
+    <Button
+        android:id="@+id/bt_queryBypay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="按支出查询" />
+
+
+</LinearLayout>
+

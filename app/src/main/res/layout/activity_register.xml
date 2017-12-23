@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/et_rgs_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入名字（只允许英文字母）"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/et_rgs_passwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/et_rgs_repass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请再次输入密码"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/submit_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交注册"/>
+
+
+</LinearLayout>
+
